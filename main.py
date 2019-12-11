@@ -59,7 +59,7 @@ def get_data(links):
 
 
 def write_csv(data):
-    with open('linksdata.csv', 'w') as f:
+    with open(domain + '.' + 'csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(('URL', 'TITLE', 'H1'))
         for i in data:
