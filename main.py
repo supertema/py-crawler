@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
 
 # def bot():
-#     bot = telebot.TeleBot('1059669648:AAE0hWqchemB2sXqBesPJJ9BtqMqDeAIQ64')  # Подключаемся к боту
+#     bot = telebot.TeleBot(token)  # Подключаемся к боту
 #
 #
 #     @bot.message_handler(commands=["File"])  # Создаем команду
